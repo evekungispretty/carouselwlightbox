@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+
+<body>
+    <style>
+        .slide-img { 
+        position: relative;
+        height: 150px;
+        width:150px;  
+        }
+
+        .image {
+            object-fit:cover;
+            width:100%;
+            height:100%;
+            border-radius: 50%;
+        }
+
+ 
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 10px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+
+        }
+
+        .slide-container {
+            max-width:1600px;
+            padding: 40px;
+        }
+
+        .swiper-navBtn {
+            color: #16305d;
+            opacity: .5;
+        }
+
+        .swiper-navBtn:hover {
+            color: #16305d;
+            opacity: 1;
+        }
+
+        @media screen and (max-width: 768px) {
+            .swiper-navBtn{
+                display: none;
+            }
+            .slide-content {
+                margin: 0 10px;
+            }
+        }
+
+        .swiper-pagination-bullet-active{
+            background-color: #16305d;
+        }
+
+    </style>
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="swiper-wrapper">
+
+           
+                <div class="card swiper-slide">
+                    <div class="slide-img">
+                        <img src="https://education.ufl.edu/special-education-1/files/2024/03/Tia_Barnes.png" class="image" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p>The special education doctoral program at UF prepared me extremely well for my role as a researcher. The coursework and research apprenticeship experiences were exceptional. I also received excellent mentoring from my advisor, from my supervisory committee, and from other faculty in the program. I forged lifelong bonds that will surely serve me well throughout my career.
+                        </p>
+                        <strong>Tia Barnes, Ph.D.</strong>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="slide-img">
+                        <img src="https://education.ufl.edu/special-education-1/files/2024/03/Pullen-headshot-1-400x400-1.jpg" class="image" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p>My experiences in the Special Education doctoral program at the University of Florida helped to prepare me for a productive career as a faculty member in another top ranked program at the University of Virginia. I credit my success to the excellent faculty and the individual mentoring I received at UF.
+                        </p>
+                        <strong>Paige Cullen Pullen, Ph.D.</strong>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="slide-img">
+                        <img src="https://education.ufl.edu/special-education-1/files/2024/03/Melinda-Leko-e1474464607655.jpg" class="image" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p>The UF Special Education Department is the reason I have been able to pursue my career goals. I am most appreciative of the nationally and internationally renowned faculty and staff who care deeply about the success of all graduate students in the program. I loved the balance of foundational courses in special education and research methods with individualized mentoring in my specific areas of interest. I also had multiple opportunities to engage in teaching, research, and service, all of which prepared me for the expectations of a faculty member in higher education!
+
+                        </p>
+                        <strong>Melinda M. Leko, Ph.D.</strong>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="slide-img">
+                        <img src="https://education.ufl.edu/special-education-1/files/2024/03/Merrill-Kristen-e1474465145569-400x400-1.jpg" class="image" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p>Years ago, I graduated from UF's Dual Certification ProTeach program with a masters in special education. Feeling well-prepared, I became a kindergarten teacher in an inclusive school for over four years, supporting students with diverse disabilities. Then, I returned to UF for my PhD in special education, aiming to teach and research effective practices for students with emotional and behavioral disorders. UF's top-ranked doctoral program and renowned scholars offered invaluable learning opportunities. I've gained extensive knowledge and been pushed to grow professionally. My experiences have primed me for a career in higher education, transforming me as a special educator and helping me achieve my goals. I highly recommend UF's programs to any current or aspiring special educator looking to make a significant impact on students' lives.
+                        </p>
+                        <strong>Kristen Merrill, Ph.D.</strong>
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="slide-img">
+                        <img src="https://education.ufl.edu/special-education-1/files/2024/03/Shayla-e1474466373374-400x400-1.jpg" class="image" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p>As a graduate of the University of Florida’s Dual Degree program, I am better equipped with the tools and skill set to meet the varied needs of my students. My experiences in ProTeach have helped me to foster an inclusive classroom community, positive behavior support systems, and a culturally responsive classroom. The opportunities and courses that UF’s Dual Degree Program offers, has prepared me to collaborate with professionals, implement individualized educational plans, maintain partnerships with families, actively engage in Professional Development opportunities, and use data to drive my instruction. I am able to provide quality instruction in a technologically diverse school setting to 21st Century learners. Seeking a dual degree in UF’s ProTeach program has been the most invaluable experience.</p>
+                        <strong>Shayla C. Dekle, M.Ed.</strong>
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="slide-img">
+                        <img src="https://education.ufl.edu/special-education-1/files/2024/03/IMG_5262-e1481562994311-400x400-1.png" class="image" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p>Being part of the Unified Education Program was one of the most challenging and exciting seasons of my life and educational career. The program as a whole inspired me as a learner and helped to define me as a teacher. The fifth year of the program in particular, was my absolute favorite! I experienced a full semester of hands-on teaching in a Pre-K Disabilities placement. I was able to glean from professionals in a way that helped inspire and diversify my teaching from both pedagogical and philosophical perspectives. Through this program, especially my master’s year in special education, I was afforded the opportunity to fine tune my weaknesses and build on my strengths. I am so grateful for the community of educators who poured out wisdom daily to help me succeed. Even now I still have many relationships with peers, professors, and field teachers I’ve worked with over the years of the program- all dedicated to success of students through the success of teachers.
+                        </p>
+                        <strong>Stephanie Dhue, M.Ed.</strong>
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="slide-img">
+                        <img src="https://education.ufl.edu/special-education-1/files/2024/03/E04147D6-C99F-4CF3-AD3A-3E81931721C5-225x300-1.jpeg" class="image" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p>As a student in the Ed.S. program, the knowledge I gained has helped me to grow professionally. The expertise of the faculty enabled me to delve deeper into the field of special education and learn new information and strategies. This contributed to the development of my role as a teacher and further improved my ability to meet the needs of my students.
+                        </p>
+                        <strong>Jennifer Erickson, Ed.S.</strong>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+         $(document).ready(function() {
+        var swiper = new Swiper(".slide-content", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        // slidesPerGroup: 3,
+        loop: true,
+        // loopFillGroupWithBlank: true,
+        centerSlide: 'true',
+        fade: 'true',
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints:{
+            1:{
+                slidesPerView: 1,
+            },
+            768:{
+                slidesPerView: 2,
+            },
+            1000:{
+                slidesPerView: 3,
+            },
+        },
+
+
+      });
+      
+      });
+
+    </script>
+</body>
+</html>
